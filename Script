@@ -1,5 +1,5 @@
 plr = game.Players.LocalPlayer
-if _G.Key == "NoMoreLife43" then
+if _G.Key == "NoMoreLife432" then
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "No More Life:",
     Text = "Key Is Currect"
