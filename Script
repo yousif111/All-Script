@@ -1,5 +1,5 @@
 local Request = syn and syn.request or request
-local InviteCode = "rqvVAthZF4"
+local InviteCode = "fNcmQqP37t"
   Request({
       Url = "http://127.0.0.1:6463/rpc?v=1",
       Method = "POST",
