@@ -28,7 +28,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 })
 else
     plr:kick("Key Is Wrong Get It From Our Discord Server Link Have Been Copied")
-    setclipboard("https://discord.gg/rqvVAthZF4")
+    setclipboard("https://discord.gg/fNcmQqP37t")
 end
 if game.PlaceId == (443406476) then -- Break In Story Lobby
     loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Project-Lazarus_/main/No%20More%20Life%233333", true))()
