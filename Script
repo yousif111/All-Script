@@ -1,75 +1,26 @@
-local Request = syn and syn.request or request
-local InviteCode = "fNcmQqP37t"
-  Request({
-      Url = "http://127.0.0.1:6463/rpc?v=1",
-      Method = "POST",
-      Headers = {
-          ["Content-Type"] = "application/json",
-          Origin = "https://discord.com"
-      },
-      Body = game:GetService("HttpService"):JSONEncode({
-          cmd = "INVITE_BROWSER",
-          nonce = game:GetService("HttpService"):GenerateGUID(false),
-          args = {
-              code = InviteCode
-          }
-      })
-  })
-plr = game.Players.LocalPlayer
-if _G.Key == "NoMoreLifeTop" then
-game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "No More Life:",
-    Text = "Key Is Currect"
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "NoMoreLife#6829",
+   LoadingTitle = "NoMoreLife#6829",
+   LoadingSubtitle = "NoMoreLife#6829",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- 
+      FileName = "NoMoreLife#6829"
+
+   },
+   KeySystem = true, 
+   KeySettings = {
+      Title = "NoMoreLife#6829",
+      Subtitle = "Key System",
+      Note = "NoMoreLife#6829",
+      FileName = "NoMoreLife#6829",
+      SaveKey = false,
+      GrabKeyFromSite = false, 
+      Key = "nomorelife" 
+   }
 })
+Rayfield:Destroy()
 wait(1)
-game:GetService("StarterGui"):SetCore("SendNotification",{
-    Title = "No More Life:",
-    Text = "Script I loading"
-})
-else
-    plr:kick("Key Is Wrong Get It From Our Discord Server Link Have Been Copied")
-    setclipboard("https://discord.gg/fNcmQqP37t")
-end
-if game.PlaceId == (443406476) then -- Break In Story Lobby
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Project-Lazarus_/main/No%20More%20Life%233333", true))()
- elseif game.PlaceId == (286090429) then -- Break In Story Main
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/ArasnalScript/main/Script%20Arasnal", true))()
- elseif game.PlaceId == (5956785391) then -- Break In Story Main
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Spin/main/Auto%20Spin", true))()
- elseif game.PlaceId == (9551640993) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Mining-Silmlitor/main/min2", true))()
-elseif game.PlaceId == (11988210990) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Pubg-Arabic/main/pubg%20arabic", true))()
- elseif game.PlaceId == (8884334497) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Mining-Clicker-Simulator/main/Mining%20Clicker%20Simulator", true))()
- elseif game.PlaceId == (1962086868) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Tower-of-Hell/main/Tower%20of%20Hell", true))()
- elseif game.PlaceId == (3101667897) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Legends-Of-Speed-/main/LegendsOfSpeed", true))()
-elseif game.PlaceId == (5326405001) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Base-Battles/main/BaseBattles", true))()
-elseif game.PlaceId == (6284583030) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Pet-Simulator-X/main/Pet%20Simulator%20X", true))()
-elseif game.PlaceId == (2788229376) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Da-Hood/main/da", true))()
-elseif game.PlaceId == (3158442565) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/-1/main/kosomak%20ya%20c00dy", true))()
-elseif game.PlaceId == (8721702870) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Pubg-Arabic/main/pubg%20arabic", true))()
-elseif game.PlaceId == (621129760) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/KAT/main/KatScript", true))()
-elseif game.PlaceId == (2753915549) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Blox-Frute/main/blox", true))()
-elseif game.PlaceId == (4442272183) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Blox-Frute/main/blox", true))()
-elseif game.PlaceId == (7449423635) then -- Break In Story Main
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/Blox-Frute/main/blox", true))()
- else
-     game.StarterGui:SetCore(
-         "SendNotification",
-         {
-             Title = "Game Not Supported Yet",
-             Text = "Try Again Later"
-         }
-     )
- end
+print(loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/All-Script3/main/new", true))())
