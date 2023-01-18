@@ -23,4 +23,4 @@ local Window = Rayfield:CreateWindow({
 })
 Rayfield:Destroy()
 wait(1)
-print(loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/All-Script3/main/new", true))())
+print(loadstring(game:HttpGet("https://raw.githubusercontent.com/yousif111/All-Script3/main/All%20Script", true))())
