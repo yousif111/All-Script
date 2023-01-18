@@ -16,7 +16,7 @@ local InviteCode = "fNcmQqP37t"
       })
   })
 plr = game.Players.LocalPlayer
-if _G.Key == "NoMoreLife8107" then
+if _G.Key == "NoMoreLifeTop" then
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "No More Life:",
     Text = "Key Is Currect"
