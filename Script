@@ -36,7 +36,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "NoMoreLife#6829",
       SaveKey = false,
       GrabKeyFromSite = false, 
-      Key = "Ka" 
+      Key = "3azef" 
    }
 })
 Rayfield:Destroy()
