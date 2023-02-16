@@ -19,20 +19,20 @@ local InviteCode = "fNcmQqP37t"
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "NoMoreLife#6829",
-   LoadingTitle = "NoMoreLife#6829",
-   LoadingSubtitle = "NoMoreLife#6829",
+   Name = "NoMoreLife#8866",
+   LoadingTitle = "NoMoreLife#8866",
+   LoadingSubtitle = "NoMoreLife#8866",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- 
-      FileName = "NoMoreLife#6829"
+      FileName = "NoMoreLife#8866"
 
    },
    KeySystem = true, 
    KeySettings = {
-      Title = "NoMoreLife#6829",
+      Title = "NoMoreLife#8866",
       Subtitle = "Key System",
-      Note = "NoMoreLife#6829",
+      Note = "NoMoreLife#8866",
       FileName = "NoMoreLife#6829",
       SaveKey = false,
       GrabKeyFromSite = false, 
